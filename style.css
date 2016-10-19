@@ -46,6 +46,8 @@ header nav a {
   text-decoration: none;
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 18px;
+  padding-right: 30px;
+  line-height: 150px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -58,16 +60,16 @@ header nav a:hover {
 }
 
 header.smaller {
-  height:75px;
+  height: 100px;
 }
 
 header.smaller .wrf-logo {
-  width: 150px;
-  height: 75px;
+  height: 100px;
 }
 
 header.smaller nav a {
-  line-height: 75px;
+  line-height: 100px;
+  padding-top: none;
 }
 
 @media all and (max-width: 660px) {
@@ -90,23 +92,28 @@ header.smaller nav a {
 
   header nav a {
     line-height: 50px;
-    margin: 0 10px;
+    font-size: 15px;
   }
 
   header.smaller {
-    height: 75px;
+    height: 150px;
   }
 
   header.smaller .wrf-logo {
-    height: 40px;
+    height: 100px;
   }
 
   header.smaller nav {
-    height: 35px;
+    height: 50px;
   }
 
   header.smaller nav a {
-    line-height: 35px;
+    line-height: 50px;
+  }
+
+  .intro-content p {
+  font-size: 20px;
+  padding: 10px;
   }
 }
 
@@ -154,48 +161,6 @@ a.button--white:hover {
   border-color: #FFFFFF;
 }
 
-/*.nav {
-  padding: 30px 10px 30px 0;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  background-color: white;
-}
-
-.nav .wrf-logo {
-  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-  font-size: 24px;
-  text-decoration: none;
-  color: #212121;
-  float: left;
-  -webkit-font-smoothing: antialiased;
-  transition: 0.2s;
-  background-position: right 60px;
-  padding-right: 40px;
-  padding-left: 30px;
-}*/
-
-/*.nav .nav-list {
-  list-style: none;
-  float: right;
-  margin: 0;
-  padding-right: 30px;
-}*/
-
-/*.nav .nav-list li {
-  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-  font-size: 18px;
-  display: inline;
-  margin-left: 50px;
-  -webkit-font-smoothing: antialiased;
-}*/
-
-/*.nav .nav-list a {
-  color: #212121;
-  text-decoration: none;
-  transition: 0.15s;
-}*/
-
 .intro {
   width: 100%;
   background-color: #f4f4f4;
@@ -210,7 +175,7 @@ a.button--white:hover {
 .intro-content {
   width: 100%;
   position: absolute;
-  top: 140px;
+  top: 200px;
 }
 
 .intro-content h1 {
