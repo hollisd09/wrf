@@ -184,23 +184,6 @@ a.button {
     max-width: 100%;
     margin: 0 auto;
   }
-
-  #charlesInfo {
-    max-width: 100%;
-  }
-
-  .charlesPic {
-    max-width: 100%;
-  }
-
-  #tylersInfo {
-    max-width: 100%;
-  }
-
-  .tylersPic {
-    max-width: 100%;
-  }
-
 }
 a.button:hover {
   border-color: rgba(0,0,0,0.2);
@@ -244,24 +227,6 @@ a.button--white:hover {
   transform: translat3d(0,0,0);
 }
 
-#charlesInfo {
-  float: left;
-  width: 50%;
-}
-
-#tylerInfo {
-  float: right;
-  width: 50%;
-}
-
-.charlesPic {
-  width: 300px;
-}
-
-.tylersPic {
-  width: 300px;
-}
-
 .meet-wrf--hidden {
   visibility: hidden;
   opacity: 0;
@@ -285,11 +250,6 @@ a.button--white:hover {
   cursor: pointer;
   z-index: 1000;
   -webkit-font-smoothing: antialiased;
-}
-
-.meet-wrf .meet-wrf-content {
-  padding-top: 180px;
-  width: 100%;
 }
 
 .meet-wrf p {

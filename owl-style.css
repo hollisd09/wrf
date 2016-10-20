@@ -1,36 +1,19 @@
-#owl-demo .charlesInfo .tylerInfo img {
+.owl-item {
+  margin-top: 150px;
+}
+
+div.charlesInfo div.tylerInfo {
   display: block;
   width: 100%;
   max-width: 1065px;
   height: auto;
-  margin: 0 auto 0 auto;
+  margin-top: 150px;
 }
 
-.owl-controls {
+.owl-controls .owl-buttons {
   position: absolute;
   top: 50%;
-  left:0;
-  right: 0;
-}
-
-.owl-buttons {
-  div {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: inline-block;
-    zoom: 1;
-    margin: 0;
-    width: 50px;
-    height: 30px;
-    line-height: 25px;
-    text-align: center;
-    font-size: .9em;
-    border-radius: 3px;
-    color: #FFF;
-    background: #000;
-    opacity: .6;
-  }
+  width: 100%;
 }
 
 .owl-prev {
@@ -41,4 +24,25 @@
 .owl-next {
   float: right;
   margin-right: 40px;
+}
+
+@media all and (max-width: 660px) {
+  .charlesInfo .charlesImage {
+    max-width: 100%;
+  }
+
+  .tylerInfo .tylerImage {
+    max-width: 100%;
+  }
+
+  .meet-wrf-content {
+    padding: none;
+  }
+
+  .owl-buttons {
+    div {
+      position: fixed;
+      display: inline-block;
+    }
+  }
 }
