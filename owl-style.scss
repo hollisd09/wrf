@@ -8,7 +8,7 @@
   .owl-slide {
     background-image: url('images/longPhoto.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+/*    background-size: cover;*/
     background-position: center center;
   }
 
@@ -18,9 +18,9 @@
   left: 2em;
   width: 20em;
   height: 8em;
-    padding: 1em;
+  padding: 1em;
   background: rgba(255,255,255,.5);
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
   .owl-controls {
