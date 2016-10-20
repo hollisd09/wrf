@@ -72,6 +72,64 @@ header.smaller nav a {
   padding-top: none;
 }
 
+.intro {
+  width: 100%;
+  background-color: #f4f4f4;
+  min-height: 400px;
+  height: 100%;
+  position: relative;
+  margin-top: 150px;
+  padding-top: 15px;
+}
+
+.intro-content {
+  width: 100%;
+  top: 200px;
+}
+
+.intro-content h1 {
+  margin-top: 20px;
+}
+
+.intro-content h1 a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.intro-image {
+  float: left;
+  margin: 0 20px;
+}
+
+.intro-text {
+  text-align: left;
+}
+
+h1 {
+  width: 80%;
+  max-width: 920px;
+  margin: auto;
+  font-family: 'Avenir', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  line-height: 56px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a.button {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 18px;
+  padding: 18px 30px 12px 30px;
+  border-radius: 10px;
+  color: #212121;
+  text-decoration: none;
+  border: 2px solid rgba(0,0,0,0.1);
+  margin-top: 10px;
+  display: inline-block;
+  transition: 0.3s;
+  -webkit-font-smoothing: antialiased;
+}
+
 @media all and (max-width: 660px) {
   header .wrf-logo {
     display: block;
@@ -111,46 +169,17 @@ header.smaller nav a {
     line-height: 50px;
   }
 
-  section.intro {
-    height: 667px;
-  }
-
   .intro-content p {
   font-size: 20px;
   padding: 0 15px 0 15px;
+  height: 100%;
+  }
+
+  .intro-image img{
+  max-width: 380px;
+  margin: 0 auto;
   }
 }
-
-section {
-  overflow: hidden;
-  width: 100%;
-}
-
-h1 {
-  width: 80%;
-  max-width: 920px;
-  margin: auto;
-  font-family: 'Avenir', 'Helvetica Neue', sans-serif;
-  font-weight: lighter;
-  font-size: 40px;
-  line-height: 56px;
-  -webkit-font-smoothing: antialiased;
-}
-
-a.button {
-  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-  font-size: 18px;
-  padding: 18px 30px 12px 30px;
-  border-radius: 10px;
-  color: #212121;
-  text-decoration: none;
-  border: 2px solid rgba(0,0,0,0.1);
-  margin-top: 10px;
-  display: inline-block;
-  transition: 0.3s;
-  -webkit-font-smoothing: antialiased;
-}
-
 a.button:hover {
   border-color: rgba(0,0,0,0.2);
 }
@@ -162,32 +191,6 @@ a.button--white {
 
 a.button--white:hover {
   border-color: #FFFFFF;
-}
-
-.intro {
-  width: 100%;
-  background-color: #f4f4f4;
-  background-size: 80%;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  min-height: 600px;
-  height: 95vh;
-  position: relative;
-}
-
-.intro-content {
-  width: 100%;
-  position: absolute;
-  top: 200px;
-}
-
-.intro-content h1 {
-  margin-top: 20px;
-}
-
-.intro-content h1 a {
-  text-decoration: none;
-  color: #212121;
 }
 
 .work {
