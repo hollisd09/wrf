@@ -1,0 +1,44 @@
+#owl-demo .charlesInfo .tylerInfo img {
+  display: block;
+  width: 100%;
+  max-width: 1065px;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+
+.owl-controls {
+  position: absolute;
+  top: 50%;
+  left:0;
+  right: 0;
+}
+
+.owl-buttons {
+  div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    zoom: 1;
+    margin: 0;
+    width: 50px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    font-size: .9em;
+    border-radius: 3px;
+    color: #FFF;
+    background: #000;
+    opacity: .6;
+  }
+}
+
+.owl-prev {
+  float: left;
+  margin-left: 40px;
+}
+
+.owl-next {
+  float: right;
+  margin-right: 40px;
+}

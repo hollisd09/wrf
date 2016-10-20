@@ -59,13 +59,11 @@ window.onload = init();
 
 $(document).ready(function() {
 
-  $("#owl-example").owlCarousel({
+  $("#owl-demo").owlCarousel({
     navigation : true,
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem: true,
-      pagination: false,
-      rewindSpeed: 500
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem: true,
   });
 
 });
