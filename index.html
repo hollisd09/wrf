@@ -7,6 +7,8 @@
     <title>Winding Rhythm Films</title>
 
     <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='owl-style.scss'>
+    <link rel='stylesheet' href='node_modules/owl-carousel/owl.carousel.css'>
   </head>
 
   <body>
@@ -51,15 +53,18 @@
     <section class='meet-wrf meet-wrf--hidden'>
       <a class='meet-wrf-close'>CLOSE</a>
       <div class='meet-wrf-content'>
-        <section id='charlesInfo'>
-          <img class='charlesPic' src='images/blank-profile (1).png'>
-          <p>This is a little something about Charles. He is a nice man. He has a wife and a baby and three dogs and one cat. He likes to film things and make cinema. GOOD SHOTS.</p>
-        </section>
-
-        <section id='tylerInfo'>
-          <img class='tylersPic' src='images/blank-profile (1).png'>
-          <p>This is a little something about Tyler. He is also a nice man. He has a mom and a dad and a friend named Steve. WE ARE MAD AT STEVE.</p>
-        </section>
+        <div id="owl-example" class="owl-carousel">
+          <div class="owl-slide">
+            <div class="owl--text">
+              This is a little something about Charles. He is a nice man. He has a wife and a baby and three dogs and one cat. He likes to film things and make cinema. GOOD SHOTS.
+            </div>
+          </div>
+          <div class="owl-slide">
+            <div class="owl--text">
+              his is a little something about Tyler. He is also a nice man. He has a mom and a dad and a friend named Steve. WE ARE MAD AT STEVE.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -88,6 +93,7 @@
     <script src='node_modules/jquery/dist/jquery.min.js'></script>
     <script src='node_modules/jquery-migrate/dist/jquery-migrate.min.js'></script>
     <script src='node_modules/desandro-classie/classie.js'></script>
+    <script src='node_modules/owl-carousel/owl.carousel.min.js'></script>
     <script src='script.js'></script>
   </body>
 </html>
