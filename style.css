@@ -105,6 +105,11 @@ header.smaller nav a {
   text-align: left;
 }
 
+section {
+  overflow: hidden;
+  width: 100%;
+}
+
 h1 {
   width: 80%;
   max-width: 920px;
@@ -170,15 +175,32 @@ a.button {
   }
 
   .intro-content p {
-  font-size: 20px;
-  padding: 0 15px 0 15px;
-  height: 100%;
+    font-size: 20px;
+    padding: 0 15px 0 15px;
+    height: 100%;
   }
 
   .intro-image img{
-  max-width: 380px;
-  margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto;
   }
+
+  #charlesInfo {
+    max-width: 100%;
+  }
+
+  .charlesPic {
+    max-width: 100%;
+  }
+
+  #tylersInfo {
+    max-width: 100%;
+  }
+
+  .tylersPic {
+    max-width: 100%;
+  }
+
 }
 a.button:hover {
   border-color: rgba(0,0,0,0.2);
@@ -222,6 +244,24 @@ a.button--white:hover {
   transform: translat3d(0,0,0);
 }
 
+#charlesInfo {
+  float: left;
+  width: 50%;
+}
+
+#tylerInfo {
+  float: right;
+  width: 50%;
+}
+
+.charlesPic {
+  width: 300px;
+}
+
+.tylersPic {
+  width: 300px;
+}
+
 .meet-wrf--hidden {
   visibility: hidden;
   opacity: 0;
@@ -232,13 +272,14 @@ a.button--white:hover {
   visibility: visible;
   opacity: 1;
   transform: scale(1);
+  position: fixed;
 }
 
 .meet-wrf .meet-wrf-close {
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   font-size: 18px;
   color: #CCC;
-  position: fixed;
+  position: absolute;
   top: 50px;
   right: 50px;
   cursor: pointer;
@@ -247,9 +288,8 @@ a.button--white:hover {
 }
 
 .meet-wrf .meet-wrf-content {
-  padding-top: 10vh;
-  float: right;
-  width: 50%;
+  padding-top: 180px;
+  width: 100%;
 }
 
 .meet-wrf p {
