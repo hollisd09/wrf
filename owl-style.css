@@ -1,18 +1,24 @@
+.owl-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
 .owl-item {
   margin-top: 150px;
+  width: 23%;
 }
 
 div.charlesInfo div.tylerInfo {
   display: block;
-  width: 100%;
-  max-width: 1065px;
+  /*max-width: 1065px;*/
   height: auto;
   margin-top: 150px;
+  text-align: center;
+  width: auto;
 }
 
 .owl-controls .owl-buttons {
   position: absolute;
-  top: 50%;
   width: 100%;
 }
 
