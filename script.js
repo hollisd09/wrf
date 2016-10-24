@@ -33,7 +33,6 @@ $("#videoReel").owlCarousel({
     [1400, 13],
     [1600, 15]
   ],
-  rewindNav: false
 });
 
 /* MEET WRF */
