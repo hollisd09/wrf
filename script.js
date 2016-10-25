@@ -7,8 +7,8 @@ $(document).ready(function() {
     slidesToScroll: 1,
     centerMode: true,
     fade: true,
-    prevArrow: $('.prev'),
-    nextArrow: $('.next'),
+    // prevArrow: $('.prev'),
+    // nextArrow: $('.next'),
   });
 })
 
