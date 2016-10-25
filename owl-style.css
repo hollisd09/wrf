@@ -3,8 +3,12 @@
   text-align: center;
 }
 
+.owl-wrapper-outer {
+  height: 700px;
+}
+
 .owl-item {
-  margin-top: 150px;
+  margin-top: 50px;
   width: 23%;
 }
 
@@ -30,6 +34,12 @@ div.charlesInfo div.tylerInfo {
 .owl-next {
   float: right;
   margin-right: 40px;
+}
+
+.item-video {
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
 }
 
 @media all and (max-width: 660px) {

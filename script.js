@@ -1,39 +1,4 @@
-$("#owl-demo").owlCarousel({
-  navigation : true,
-  slideSpeed : 300,
-  paginationSpeed : 400,
-  singleItem: true,
-  navigationText: ['<', '>'],
-  itemsCustom: [
-    [0,2],
-    [450, 4],
-    [600, 7],
-    [700, 9],
-    [1000, 10],
-    [1200, 12],
-    [1400, 13],
-    [1600, 15]
-  ],
-  rewindNav: false
-});
 
-$("#videoReel").owlCarousel({
-  navigation : true,
-  slideSpeed : 300,
-  paginationSpeed : 400,
-  singleItem: true,
-  navigationText: ['<', '>'],
-  itemsCustom: [
-    [0,2],
-    [450, 4],
-    [600, 7],
-    [700, 9],
-    [1000, 10],
-    [1200, 12],
-    [1400, 13],
-    [1600, 15]
-  ],
-});
 
 /* MEET WRF */
 
@@ -90,6 +55,26 @@ function init() {
   });
 }
 window.onload = init();
+
+$("#owl-demo").owlCarousel({
+  navigation : true,
+  slideSpeed : 300,
+  paginationSpeed : 400,
+  singleItem: true,
+  center: true,
+  navigationText: ['<', '>'],
+  items: 2,
+  rewindNav: false
+});
+
+$('#videoReel').owlCarousel({
+  navigation: true,
+  slideSpeed: 300,
+  paginationSpeed: 400,
+  singleItem: true,
+  navigationText: ['<', '>'],
+  items: 2,
+});
 
 
 /* CAROUSEL */
