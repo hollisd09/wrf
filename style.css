@@ -202,6 +202,7 @@ section {
 /* --------------- */
   .meet-wrf-content {
     text-align: center;
+    margin-top: 100px;
   }
 
   .meet-wrf--hidden {
@@ -230,10 +231,10 @@ section {
   }
 
   .meet-wrf p {
-    width: 60%;
+/*    width: 100%;*/
     max-width: 760px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .meet-wrf {
@@ -244,6 +245,11 @@ section {
     z-index: 999;
     transition: 0.4s;
     transform: translat3d(0,0,0);
+  }
+
+  .charlesImage, .tylerImage {
+    width: 100%;
+    max-width: 1200px;
   }
 
 
@@ -291,10 +297,10 @@ section {
   }
 
   .contact-wrf p {
-    width: 60%;
+    width: 100%;
     max-width: 760px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
 
@@ -377,10 +383,10 @@ a.button {
     max-width: 100%;
     margin: 0 auto;
   }
-
+/*
   .nav-list {
     float: none;
-  }
+  }*/
 }
 a.button:hover {
   border-color: rgba(0,0,0,0.2);
