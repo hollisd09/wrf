@@ -131,7 +131,7 @@ section {
 /* --------------- */
   .work {
     width: 100%;
-    padding-top: 50px;
+    padding: 50px 0;
     text-align: center;
   }
 
@@ -142,8 +142,10 @@ section {
   }
 
   .work--black {
-    background-color: #212121
+    background-color: #212121;
     color: #808080;
+    padding: 50px 0;
+    text-align: center;
   }
   .work--black h1 {
     color: #FFFFFF;
@@ -231,8 +233,7 @@ section {
   }
 
   .meet-wrf p {
-/*    width: 100%;*/
-    max-width: 760px;
+    width: 100%;
     margin-left: 25px;
     margin-right: 25px;
   }
@@ -249,7 +250,7 @@ section {
 
   .charlesImage, .tylerImage {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
   }
 
 

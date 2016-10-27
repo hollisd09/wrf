@@ -4,11 +4,9 @@ $(document).ready(function() {
     infinite: false,
     speed: 300,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    centerMode: true,
     fade: true,
-    // prevArrow: $('.prev'),
-    // nextArrow: $('.next'),
+    centerMode: true,
+    accessibility: true,
   });
 })
 

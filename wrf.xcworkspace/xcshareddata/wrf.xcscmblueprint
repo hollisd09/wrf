@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "90C48F08A5CE08040D0769A59D1EB92AFA123060",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "889E8982917CBA7005D22377F4766AAA14FF4F0E" : 0,
+    "90C48F08A5CE08040D0769A59D1EB92AFA123060" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "78A8F778-CE90-4178-B878-C1F0212CA991",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "889E8982917CBA7005D22377F4766AAA14FF4F0E" : "",
+    "90C48F08A5CE08040D0769A59D1EB92AFA123060" : "wrf\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "wrf",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "wrf.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hollisd09\/weatherApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "889E8982917CBA7005D22377F4766AAA14FF4F0E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hollisd09\/wrf.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90C48F08A5CE08040D0769A59D1EB92AFA123060"
+    }
+  ]
+}
