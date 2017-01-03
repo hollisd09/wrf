@@ -1,15 +1,3 @@
-$(document).ready(function() {
-  $('.meet-wrf-content').slick({
-    dots: false,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 1,
-    fade: true,
-    centerMode: true,
-    accessibility: true,
-  });
-})
-
 
 /* MEET WRF */
 
