@@ -67,9 +67,6 @@
       <a href='/viewWork' class='button'>more work</a>
     </section>
 
-
-
-
     <section class='info work--yellow'>
       <h1>strategy for client value</h1>
       <p>Exceptional client communication relations</p>
@@ -79,14 +76,26 @@
 
     <section class='meet-wrf meet-wrf--hidden'>
       <a class='meet-wrf-close'>CLOSE</a>
-      <div class='meet-wrf-content'>
-        <div class='charlesInfo'>
-          <img class='charlesImage' src='images/charles-headshot.png' alt='Charles Powell'>
-          <p>This is a little something about Charles. He has a wife and a baby and three dogs and a cat. He likes good shots and making films.</p>
-        </div>
-        <div class='tylerInfo'>
-          <img class='tylerImage' src='images/tyler-headshot.png' alt='Tyler Whitaker'>
-          <p>This is a little something about Tyler. He has a mom and a dad and he's from Sommerset, Kentucky. He also likes good shots and making films</p>
+      <div id="wrfAbout" class="carousel carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#wrfAbout" data-slide-to="0" class="active"></li>
+          <li data-target="#wrfAbout" data-slide-to="1"></li>
+      </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class='charlesImage' src='images/charles-headshot.png' alt='Charles Powell'>
+            <div class='infoText'>
+              <p class='name'>Charles Powell</p>
+              <p class='title'>Co-Founder - Creative Director</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class='tylerImage' src='images/tyler-headshot.png' alt='Tyler Whitaker'>
+            <div class='infoText'>
+              <p class='name'>Tyler Whitaker</p>
+              <p class='title'>Co-Founder - Producer - Editor</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

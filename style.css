@@ -163,6 +163,35 @@
   text-shadow: none !important;
 }
 
+#wrfAbout .carousel-inner {
+  top: 40px;
+}
+
+.carouse-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
 /* --------------- */
 /* WORK -- SECTION */
 /* --------------- */
@@ -256,6 +285,8 @@
   .meet-wrf-content {
     text-align: center;
     margin-top: 100px;
+    max-width: 1260px;
+    width: 100%;
   }
 
   .meet-wrf--hidden {
@@ -283,12 +314,6 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  .meet-wrf p {
-    width: 100%;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-
   .meet-wrf {
     min-height: 100vh;
     background-color: #FFFFFF;
@@ -299,10 +324,32 @@
     transform: translat3d(0,0,0);
   }
 
-  .charlesImage, .tylerImage {
+  .item {
+    position: relative;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1260px;
+    margin: 0 auto;
   }
+
+  .infoText {
+    position: absolute;
+    font-family: 'Muli', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    max-width: 1260px;
+    color: white;
+    top: 25%;
+    left: 5%;
+  }
+
+  p.name {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+
+  p.title {
+    font-size: 3vw;
+  }
+
 
 
 /* ------------------ */

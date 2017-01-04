@@ -61,4 +61,8 @@ $('#wrfCarousel').carousel({
   interval: false
 })
 
+$('#wrfAbout').carousel({
+  interval: false
+})
+
 
