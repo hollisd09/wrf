@@ -9,6 +9,7 @@
 
     <link rel='stylesheet' href='style.css'>
     <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Muli:200" rel="stylesheet">
   </head>
 
   <body>
@@ -25,18 +26,24 @@
 
     <section class='intro'>
       <div class='intro-content slide-up--intro'>
-        <div class='intro-image'>
-          <img src='images/water.gif'>
+        <div class='wrfIntro'>
+          <p class='wrfText'>winding rhythm films</p>
         </div>
-        <div class='intro-text'>
-          <p>Winding Rhythm Films is a full-service, independent production company that offers high quality audio, video, and digital media.</p>
-          <p>We value our relationships with our clients, which is why the WRF team is dedicated to producing exceedingly professional products with speed and efficiency.</p>
-          <p>In other words: We film good.</p>
+        <div class='intro-image'>
+          <video width='100%'>
+            <source src='images/prodReel720.mp4' type='video/mp4'/>
+          </video>
         </div>
       </div>
     </section>
 
-    <section class='work work--white'>
+    <section class='info work--white'>
+      <p>Winding Rhythm Films is a full-service, independent production company that offers high quality qudio, video, and digital media.</p>
+      <p>We value our relationships with our clients, which is why the WRF team is dedicated to producing exceedingly professional products with speed and efficiency.</p>
+      <p>In other words: We film good.</p>
+    </section>
+
+    <section class='work work--black'>
       <h1>recent work</h1>
       <div id="wrfCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
@@ -63,7 +70,7 @@
 
 
 
-    <section class='info work--black'>
+    <section class='info work--white'>
       <h1>strategy for client value</h1>
       <p>Exceptional client communication relations</p>
       <p>Highly produced imagery media for stragetic growth</p>
@@ -109,6 +116,7 @@
     <script src='node_modules/jquery/dist/jquery.min.js'></script>
     <script src='node_modules/jquery-migrate/dist/jquery-migrate.min.js'></script>
     <script src='node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+    <script src='node_modules/desandro-classie/classie.js'></script>
     <script src='script.js'></script>
   </body>
 </html>

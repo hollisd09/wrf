@@ -3,7 +3,7 @@
 /* -----*/
   body {
     background-color: #ffffff !important;
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: 'Muli', 'Helvetica Neue', sans-serif !important;
     font-size: 23px !important;
     line-height: 32px !important;
     color: #808080 !important;
@@ -32,7 +32,7 @@
   header nav a {
     color: #9e9e9e;
     text-decoration: none;
-    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-family: 'Muli', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     padding-right: 30px;
     line-height: 150px;
@@ -83,11 +83,11 @@
     float: right;
   }
 
+  section {
+    overflow: hidden;
+    width: 100%;
+  }
 
-section {
-  overflow: hidden;
-  width: 100%;
-}
 
 /* ---------------- */
 /* INTRO -- SECTION */
@@ -99,7 +99,6 @@ section {
     height: 100%;
     position: relative;
     margin-top: 150px;
-    padding-top: 15px;
   }
 
   .intro-content {
@@ -117,12 +116,25 @@ section {
   }
 
   .intro-image {
-    float: left;
-    margin: 0 20px;
+    width: 100%;
   }
 
   .intro-text {
     text-align: left;
+  }
+
+  .wrfIntro {
+    text-align: center;
+  }
+
+  .wrfText {
+    font-size: 80px;
+    letter-spacing: 20px;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: 25%;
+    font-family: 'Muli', 'Helvetica Neue', sans-serif;
   }
 
 /* -------- */
@@ -178,6 +190,13 @@ section {
     color: #FFFFFF;
   }
 
+  .work--white {
+    background-color: white;
+    color: #808080;
+    padding: 50px 0;
+    text-align: center;
+  }
+
   .work-wrf {
     min-height: 100vh;
     background-color: #FFFFFF;
@@ -201,7 +220,7 @@ section {
   }
 
   .work-wrf .work-wrf-close {
-    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-family: 'Muli', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     color: #CCC;
     position: fixed;
@@ -248,7 +267,7 @@ section {
   }
 
   .meet-wrf .meet-wrf-close {
-    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-family: 'Muli', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     color: #CCC;
     position: absolute;
@@ -307,7 +326,7 @@ section {
   }
 
   .contact-wrf .contact-wrf-close {
-    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-family: 'Muli', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     color: #CCC;
     position: fixed;
@@ -336,7 +355,7 @@ h1 {
   width: 80% !important;
   max-width: 920px !important;
   margin: auto !important;
-  font-family: 'Avenir', 'Helvetica Neue', sans-serif !important;
+  font-family: 'Muli', 'Helvetica Neue', sans-serif !important;
   font-weight: lighter !important;
   font-size: 40px !important;
   line-height: 56px !important;
@@ -345,7 +364,7 @@ h1 {
 }
 
 a.button {
-  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-family: 'Muli', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   padding: 18px 30px 12px 30px;
   border-radius: 10px;
