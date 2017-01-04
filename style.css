@@ -2,13 +2,13 @@
 /* BODY */
 /* -----*/
   body {
-    background-color: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 23px;
-    line-height: 32px;
-    color: #808080;
-    font-weight: 200;
-    margin: 0;
+    background-color: #ffffff !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 23px !important;
+    line-height: 32px !important;
+    color: #808080 !important;
+    font-weight: 200 !important;
+    margin: 0 !important;
   }
 
 
@@ -129,8 +129,29 @@ section {
 /* CAROUSEL */
 /* -------- */
 
+.carousel-control .glyphicon-menu-left,
+.carousel-control .glyphicon-menu-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
 
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none !important;
+}
 
+.glyphicon {
+  color: black;
+}
+
+.carousel-control {
+  text-shadow: none !important;
+}
 
 /* --------------- */
 /* WORK -- SECTION */
@@ -312,15 +333,15 @@ section {
 
 
 h1 {
-  width: 80%;
-  max-width: 920px;
-  margin: auto;
-  font-family: 'Avenir', 'Helvetica Neue', sans-serif;
-  font-weight: lighter;
-  font-size: 40px;
-  line-height: 56px;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
+  width: 80% !important;
+  max-width: 920px !important;
+  margin: auto !important;
+  font-family: 'Avenir', 'Helvetica Neue', sans-serif !important;
+  font-weight: lighter !important;
+  font-size: 40px !important;
+  line-height: 56px !important;
+  text-align: center !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 a.button {
