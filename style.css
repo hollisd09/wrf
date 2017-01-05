@@ -9,27 +9,46 @@
     color: #808080 !important;
     font-weight: 200 !important;
     margin: 0;
+    padding-top: 250px;
   }
 
+  .main-nav, .main {
+    position: relative;
+  }
+
+  .main {
+    background: white;
+    padding: 110px 50px 50px;
+  }
 
 /* ------ */
 /* HEADER */
 /* ------ */
-  header {
+/*  .main-nav {
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
     z-index: 999;
     background-color: white;
+    position: relative;
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
     -ms-transition: height 0.3s;
     -o-transition: height 0.3s;
     transition: height 0.3s;
+  }*/
+
+  .main-nav {
+    background: #fff;
+    height: 80px;
+    z-index: 150;
+    margin-bottom: -80px;
   }
 
-  header nav a {
+  .main-nav .sticky {
+      position: fixed;
+      top: 0;
+    }
+
+  .main-nav a {
     color: #9e9e9e;
     text-decoration: none;
     font-family: 'Muli', 'Helvetica Neue', sans-serif;
@@ -43,19 +62,19 @@
     transition: all 0.3s;
   }
 
-  header nav a:hover {
+  .main-nav a:hover {
     color: #F2C018;
   }
 
-  header.smaller {
+  .main-nav .smaller {
     height: 100px;
   }
 
-  header.smaller .wrf-logo {
+  .main-nav .smaller .wrf-logo {
     height: 100px;
   }
 
-  header.smaller nav a {
+  .main-nav .smaller a {
     line-height: 100px;
     padding-top: none;
   }
@@ -64,7 +83,7 @@
 /* ---------*/
 /* WRF LOGO */
 /* ---------*/
-  header .wrf-logo {
+  .main-nav .wrf-logo {
     display: inline-block;
     height: 150px;
     float: left;
@@ -92,19 +111,24 @@
 /* ---------------- */
 /* INTRO -- SECTION */
 /* ---------------- */
-  .intro {
+  /*header {
     width: 100%;
     background-color: #f4f4f4;
     min-height: 400px;
-    height: 100%;
-    position: relative;
-    margin-top: 150px;
+    height: 300px;
+  }
+*/
+
+  header {
+    height: 300px;
+    width: 100%;
   }
 
-/*  .intro-content {
+  header, .main-nav-scrolled {
+    position: fixed;
     width: 100%;
-    top: 200px;
-  }*/
+    top: 0;
+  }
 
   .intro-image {
     width: 100%;
@@ -225,7 +249,7 @@
   }
 
   .work--yellow {
-    background-color: #f6ca36;
+    background-color: #F2C018;
     color: white;
     text-align: center;
     padding: 50px 0;
@@ -435,7 +459,7 @@ a.button {
 
 
 @media all and (max-width: 660px) {
-  header .wrf-logo {
+  .main-nav .wrf-logo {
     display: block;
     float: none;
     margin: 0 auto;
@@ -444,31 +468,31 @@ a.button {
     text-align: center;
   }
 
-  header nav {
+  .main-nav {
     display: block;
     height: 50px;
     text-align: center;
     margin: 0 auto;
   }
 
-  header nav a {
+  .main-nav a {
     line-height: 50px;
     font-size: 15px;
   }
 
-  header.smaller {
+  .main-nav .smaller {
     height: 150px;
   }
 
-  header.smaller .wrf-logo {
+  .main-nav .smaller .wrf-logo {
     height: 100px;
   }
 
-  header.smaller nav {
+  .main-nav .smaller {
     height: 50px;
   }
 
-  header.smaller nav a {
+  .main-nav .smaller a {
     line-height: 50px;
   }
 
